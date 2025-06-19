@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -111,6 +111,7 @@ ol {
 
 .search-form__label {
   display: flex;
+  align-items: center;
   width: fit-content;
 }
 
@@ -130,9 +131,9 @@ ol {
   border-top: solid 1px #fff;
   border-bottom: solid 1px #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   background-color: #1b1919;
   appearance: none;
 }
@@ -178,11 +179,11 @@ ol {
 }
 
 .button {
-  border: solid 1px #fff;
+  border: solid 1px currentColor;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   background-color: transparent;
   cursor: pointer;
 }
@@ -219,7 +220,7 @@ ol {
 
 .title {
   margin-bottom: 26px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 0.94;
@@ -234,7 +235,7 @@ ol {
   position: relative;
   height: 298px;
   padding: 2px 3px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list {
@@ -283,7 +284,8 @@ ol {
 .content__video-card-title {
   margin-bottom: 4px;
   overflow: hidden;
-  font-family: 'Oswald';
+  white-space: nowrap;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;

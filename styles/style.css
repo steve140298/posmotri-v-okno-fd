@@ -284,13 +284,13 @@ ol {
 .content__video-card-title {
   margin-bottom: 4px;
   overflow: hidden;
-  white-space: nowrap;
   font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
